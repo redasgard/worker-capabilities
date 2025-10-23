@@ -1,0 +1,26 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (except main ones)
+*[A-Z]*.md
+!README.md
+!CHANGELOG.md
+!LICENSE*.md
+!CONTRIBUTING.md
+
+# Test artifacts
+*.profraw
+*.profdata
+

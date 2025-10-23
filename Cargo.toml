@@ -1,0 +1,22 @@
+[package]
+name = "worker-capabilities"
+version = "0.1.0"
+edition = "2021"
+authors = ["Red Asgard <hello@redasgard.com>"]
+license = "MIT"
+description = "Capability-aware workflow system for distributed workers with dynamic tool availability checking"
+repository = "https://github.com/redasgard/worker-capabilities"
+keywords = ["distributed", "capabilities", "workflow", "worker", "tools"]
+categories = ["development-tools", "api-bindings"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+
+[lib]
+name = "worker_capabilities"
+path = "src/lib.rs"
+
