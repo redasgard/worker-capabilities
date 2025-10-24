@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/worker-capabilities.svg)](https://crates.io/crates/worker-capabilities)
 [![Documentation](https://docs.rs/worker-capabilities/badge.svg)](https://docs.rs/worker-capabilities)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE-MIT)
+[![Test Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/redasgard/worker-capabilities)
 
 Capability-aware workflow system for distributed workers with dynamic tool availability checking.
 
@@ -240,7 +241,7 @@ cargo test test_capabilities_builder
 
 ## Origin
 
-Extracted from [Valkra](https://github.com/asgardtech/valkra), a blockchain security auditing platform where it manages capability negotiation between distributed security analysis workers.
+Extracted from [Red Asgard](https://github.com/redasgard), a security platform where it manages capability negotiation between distributed security analysis workers.
 
 ## License
 
